@@ -15,11 +15,24 @@
  */
 
 
-html, body {
-  font-family: "Open Sans", Roboto, sans-serif;
+html, body, .app-container {
   font-size: 16px;
   line-height: 1.6;
   margin: 0;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  border: none;
+  font-family: proxima-nova, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif
+}
+
+.app-container {
+  margin-top: 44px;
+  height: initial;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 // This class is applied by <amp-font> if Open Sans doesn't load within 2s.
